@@ -5,7 +5,7 @@ const dist = path.resolve(__dirname, "dist");
 
 module.exports = {
 	mode: "development",
-	entry: ['./example/index.tsx',],
+	entry: ['./src/index.tsx',],
 	output: {
 		publicPath: '/',
 		path: dist,

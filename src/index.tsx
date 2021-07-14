@@ -6,7 +6,7 @@ import {} from "@wynd/redux-wps-middleware"
 
 import store from "./store"
 import App from "./components/App"
-import "./app/app.scss";
+import "./styles/index.less";
 
 render(
 	<Provider store={store}>
