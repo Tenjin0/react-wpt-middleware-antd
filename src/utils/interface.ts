@@ -1,10 +1,12 @@
 import { AnyAction } from "redux";
+import { RWMInterface } from "@wynd/redux-wps-middleware";
 
 export interface IAppState {
 
 }
 
 export interface IRootState {
+	wyndpostools: RWMInterface.IWPTState,
 	app: IAppState
 }
 

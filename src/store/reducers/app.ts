@@ -5,7 +5,7 @@ import initState from '../iniState'
 import { TAppActionTypeKeys } from '../actions'
 
 const  appReducer: Reducer<IAppState, IAppAction<TAppActionTypeKeys>> = (
-	state: IAppState = initState.app,
+	state: IAppState = initState,
 	action
 ) => {
 

@@ -1,6 +1,6 @@
 import { IAppState, IRootState } from '../utils/interface'
 
-const initState: IRootState = {
+const initState: IAppState = {
 	app: {}
 }
 
